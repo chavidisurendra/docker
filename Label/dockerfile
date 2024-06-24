@@ -1,0 +1,4 @@
+FROM alpine:1
+LABEL author="suri" \
+      course="devopsd"
+    
