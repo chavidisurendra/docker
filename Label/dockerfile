@@ -1,4 +1,4 @@
-FROM almalinux:1
+FROM almalinux:9
 LABEL author="suri" \
       course="devopsd"
     
