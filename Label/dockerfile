@@ -1,4 +1,7 @@
 FROM almalinux:9
-LABEL author="suri" \
+LABEL author="suri" \  
       course="devopsd"
-    
+EXPOSE 80/tcp    
+ENV trainer="ssr" \
+    ded="ssr2"
+CMD [ "sleep","10" ]
